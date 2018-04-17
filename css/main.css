@@ -1,0 +1,438 @@
+/*  
+
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Alfa Slab One', cursive;
+
+*/
+
+
+
+section {
+	padding: 75px 0;
+}
+
+hr {
+	height: 1px;
+	background-color: #f0f0f0;
+	margin: 50px 0;
+	border: none;
+}
+a:hover {
+	text-decoration: none;
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 30px;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	color: #303030;
+}
+
+header {
+	background-color: rgba(255,255,255,.45);
+	transition: background-color ease .3s;
+	text-align: center;
+	padding: 25px 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 20;
+	
+
+}
+header:hover{
+	background-color: rgba(255,255,255,1);
+
+}
+ul.main-nav{
+	margin: 0;
+	padding: 0;
+}
+
+ul.main-nav li{
+	padding: 0px 20px;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	list-style-type: none;
+}
+ul.main-nav li a {
+	color: #000;
+	transition: color ease .3s;
+}
+ul.main-nav li a:hover{
+	color: #FFEE93;
+
+
+}
+
+
+.logo-wrap {
+	background-color: #FFEE93;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	padding-top: 15px;
+}
+
+.logo-wrap img {
+	width: 60%;
+}
+
+div.first_img{
+	background: url(../img/home-top.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100vh;
+}
+div.first_img h1 {
+	text-align: center;
+	padding-top: 80vh;
+	font-family:  'Alfa Slab One', cursive;
+	font-size: 60px;
+	color: white;
+
+}
+section.ing{
+	background-color: #D1DCFF;
+}
+section.ing h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+section.ing p{
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+}
+
+div.window{
+	background: url(../img/step-6.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 250px 0;
+
+}
+
+section.dir {
+	background-color: #ffffff;
+}
+
+/* =========== Noah Gordon did some work ========== */
+
+/* =============== Step Code =============== */
+
+.step-header {
+	margin: 0 0 20px 0;
+	position: relative;
+}
+
+.step-number {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	text-align: center;	
+	float: left;
+	position: absolute;
+	left: -20px;	
+}
+.step-number p {
+	margin: 0;
+	font-size: 50px;
+  	font-family: 'Josefin Sans', sans-serif;
+  	color: #fff;
+  	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%); 
+}
+
+.step-title{
+	float: left;
+	padding: 20px 0 20px 120px;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.step-title h3 {
+	margin: 0;
+}
+
+.step-text {
+	float: left;
+	margin-top: 40px;
+	position: relative;
+}
+
+.step-text p {
+	margin: 0;
+	padding: 0 0 0 50px;
+	display: inline-block;	
+}
+
+/* =============== Pink Step =============== */
+
+.pink img{
+	box-shadow: -10px 10px 0 0px;
+	color: #F0AFBE;
+}
+.pink .step-number {
+	background-color: #F0AFBE;
+}
+.pink .step-title {
+	background-color: #F9E0E6;
+}
+
+/* =============== Yellow Step =============== */
+
+.yellow img{
+	box-shadow: -10px 10px 0 0px;
+	color: #FDEC81;
+}
+.yellow .step-number {
+	background-color: #FDEC81;
+}
+.yellow .step-title {
+	background-color: #FEF6BE;
+}
+
+
+/* =============== Blue Step =============== */
+
+.blue img{
+	box-shadow: -10px 10px 0 0px;
+	color: #86BBD8;
+}
+.blue .step-number {
+	background-color: #86BBD8;
+}
+.blue .step-title {
+	background-color: #D1DCFF;
+}
+
+
+/* =============== Purple Step =============== */
+
+.purple img{
+	box-shadow: -10px 10px 0 0px;
+	color: #D4ADCF;
+}
+.purple .step-number {
+	background-color: #D4ADCF;
+}
+.purple .step-title {
+	background-color: #F6CDF9;
+}
+
+
+
+/* =============== Green Step =============== */
+
+.green img{
+	box-shadow: -10px 10px 0 0px;
+	color: #A7F8CB;
+}
+.green .step-number {
+	background-color: #A7F8CB;
+}
+.green .step-title {
+	background-color: #C6FADC;
+}
+
+
+
+
+/* =============== Orange Step =============== */
+
+.orange img{
+	box-shadow: -10px 10px 0 0px;
+	color: #F2B759;
+}
+.orange .step-number {
+	background-color: #F2B759;
+}
+.orange .step-title {
+	background-color: #F5C77D;
+}
+
+
+footer{
+	background-color: #86BBD8; 
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+
+
+
+
+
+/* =============== History Page HTML =============== */
+
+.history h1{
+	font-family: 'Alfa Slab One';
+	font-size: 50px;
+	color: black;
+	text-decoration: bold;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 125px;
+
+}
+div.history-wrap{
+	background-color: #fff;
+	box-shadow: -10px 10px 0 0px;
+	color: #D4ADCF;
+	padding: 60px;
+}
+
+body.history{
+	color: #F0F0F0;
+}
+
+.history-top {
+	background-color: #F0F0F0;
+}
+
+.history h2{
+	font-family: 'Alfa Slab One';
+	font-size: 50px;
+	color: black;
+	text-decoration: bold;
+	text-align: center;
+	padding-bottom: 50px;
+	
+}
+
+.history p{
+	padding-bottom: 20px;
+}
+
+
+
+/* =============== Test Page! =============== */
+
+body.test {
+
+			width: 100wh;
+			height: 90vh;
+			color: #fff;
+			background: linear-gradient(-45deg, #f0afbe, #f2b759, #fdec81, #87f8cd, #86bbd8, #d4adcf);
+			background-size: 800% 800%;
+			-webkit-animation: Gradient 15s ease infinite;
+			-moz-animation: Gradient 15s ease infinite;
+			animation: Gradient 15s ease infinite;
+		}
+
+	/*For Safari*/ 
+
+	@-webkit-keyframes Gradient {
+
+		0% {
+			background-position: 0% 50%
+		}
+
+		50% {
+			background-position: 100% 50%
+		}
+
+		100% {
+			background-position: 0% 50%
+		}
+
+	}
+
+
+
+	/*For Firefox*/
+
+	@-moz-keyframes Gradient {
+
+		0% {
+			background-position: 0% 50%
+		}
+
+		50% {
+			background-position: 100% 50%
+		}
+
+		100% {
+			background-position: 0% 50%
+		}
+
+	}
+
+
+
+	/*For Chrome*/
+
+	@keyframes Gradient {
+
+		0% {
+			background-position: 0% 50%
+		}
+
+		50% {
+			background-position: 100% 50%
+		}
+
+		100% {
+			background-position: 0% 50%
+		}
+
+	}
+
+.test-wrap {
+	background-color: rgba(255,255,255,.25);
+	border: 1px solid #fff;
+	padding: 100px;
+	margin-bottom: 100px;
+
+}
+
+.test-wrap p{
+	color: white;
+	font-size: 30px;
+	line-height: 45px;
+	letter-spacing: .05em;
+	font-weight: bold;
+
+}
+
+.test h1{
+	font-family: 'Alfa Slab One';
+	font-size: 50px;
+	text-decoration: bold;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 200px;
+
+}
+
+div.stuff img{
+	width: 50px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+}
+div.stuff p {
+	padding-left: 20px;
+	margin: 0;
+}
+
+
